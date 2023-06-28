@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html >
+      <body className={inter.className} >
         <AuthContext>
           <ToasterContext />
           {children}
